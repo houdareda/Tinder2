@@ -84,7 +84,7 @@ body {
 /* Start Hero */
 .hero{
   position: relative;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 .hero .top_text{
     background: #fff;
