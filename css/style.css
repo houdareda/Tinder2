@@ -115,12 +115,13 @@ body {
 .hero ul li{
     padding: 0 2px;
     background: linear-gradient( to left,#ffffff00 , #8a53966f);
-    margin-bottom: 20px;
+    margin-bottom: 18px;
     border-radius: 10px;
     color: #fff;
     font-size: 4.7vw;
     text-align: center;
     font-weight: bold;
+    line-height: 1.5;
 }
 
 .hero ul li.li1{
