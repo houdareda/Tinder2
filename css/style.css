@@ -1,35 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
 
-@font-face {
-  font-family: "Light";
-  src: local("Light"), url("../Fonts/Omar-Light-1.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Bold";
-  src: local("Bold"), url("../Fonts/Omar-Bold-1.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Regular";
-  src: local("Regular"), url("../Fonts/Omar-Regular-1.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-.f_Light{
-  font-family: "Light", sans-serif ;
-}
-.f_Bold{
-  font-family: "Bold", sans-serif;
-}
-.f_Regular{
- font-family: "Regular", sans-serif;
-}
 
 * {
   padding: 0;
@@ -537,4 +507,308 @@ text-align: center;
 .last_sec .footer .boxs .box p{
   font-size: 1.8vw;
   color: #fff;
+}
+
+
+@media (min-width:500px) {
+  .hero .top_text h4{
+    font-size: 33px;
+  }
+  .hero ul li{
+    font-size: 22px;
+    width: max-content;
+    margin-inline:auto ;
+    padding: 5px 10px;
+  }
+  .div-btn .btn{
+    width: 300px;
+    margin-top: 10px;
+  }
+  .hero ul{
+    padding-bottom: 70px;
+  }
+
+
+  .doctor .flex{
+    justify-content: space-between;
+  }
+  .doctor .div_img{
+    width: 250px;
+  }
+  .doctor .div_text h3{
+    font-size: 26px;
+  }
+  .doctor ul li{
+    font-size: 22px;
+    width: max-content;
+    margin-inline: auto;
+  }
+  .doctor .div_img{
+    margin-top: -50px;
+  }
+  .box_Text h4{
+    font-size: 25px;
+  }
+  .box_Text p{
+    font-size: 20px;
+  }
+  .result .top_text{
+    font-size: 26px;
+  }
+  .result .div_text .img_box{
+    width: 60%;
+  }
+  .how_work .top_img .dick{
+    width: 250px;
+  }
+  .how_work .top_img .top_text .text h4{
+    font-size: 33px;
+  }
+  .how_work .top_img .top_text .text h3{
+    font-size: 35px;
+  }
+  .how_work .top_img .top_text img{
+    width: 80px;
+  }
+  .how_work .text2{
+    font-size: 24px;
+  }
+  .how_work .div-btn .btn{
+    width: 280px;
+  }
+
+
+
+
+
+  .last_sec .div_form .flex_price .img_productt{
+    width: 200px;
+  }
+  .last_sec .div_form .flex_price{
+    justify-content: space-between;
+  }
+  .last_sec .div_form .top_img_l{
+    width: 200px;
+  }
+
+  .last_sec .div_form .content p{
+    font-size: 20px;
+  }
+  .last_sec .div_form form{
+    width: 80%;
+  }
+  .last_sec .sm-p{
+    font-size: 16px;
+  }
+  .last_sec form .div-btn .btn{
+    font-size: 25px;
+
+  }
+  .last_sec form .div-btn{
+    width: 50%;
+    margin-inline: auto;
+  }
+  .last_sec .text_delv p{
+    font-size: 18px;
+  }
+  .last_sec .text_delv{
+    width: max-content;
+    padding-inline: 40px 25px;
+  }
+  .last_sec .text_price{
+    width: 50%;
+  }
+  .last_sec .price_nm{
+    font-size: 22vw;
+  }
+  .last_sec .text_price .much_price h1{
+    font-size: 4.5vw;
+  }
+  .last_sec .discount .sm_p_discount p{
+    font-size: 2.8vw;
+  }
+  .last_sec .discount h4{
+    font-size: 5.8vw;
+  }
+  .last_sec .div_form form input{
+    width: 80%;
+  }
+
+}
+
+
+@media (min-width:1000px) {
+  .flex_Sec{
+    display: flex;
+    align-items: center;
+    background: #E5E6E6;
+  }
+  .doctor .div_img{
+    margin-top: 0;
+  }
+  .doctor .flex{
+    margin-top: 20px;
+    align-items: center;
+  }
+  .hero .top_text h4{
+    font-size: 28px;
+  }
+  .hero ul li{
+    font-size: 20px;
+  }
+  .hero ul .img_btm{
+    display: none;
+  }
+  .hero ul{
+    padding-bottom: 0;
+  }
+  .doctor{
+    background: #E5E6E6;
+    width: 55%;
+  }
+  .hero{
+    width: 45%;
+  }
+  .doctor .div_img span{
+    font-size: 28px;
+  }
+
+  .result .div_text .img_textt{
+    display: flex;
+    justify-content:center;
+    gap: 100px;
+
+  }
+  .result .div_text .img_box{
+    width: 440px;
+    margin: 25px 0;
+  }
+
+
+
+
+  .flex_sec2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E5E6E6;
+  }
+  .how_work{
+    width: 50%;
+  }
+  .last_sec{
+    width: 50%;
+  }
+  .last_sec .price_nm{
+    font-size: 120px;
+  }
+  .last_sec .text_price .much_price h1{
+    font-size: 22px;
+  }
+  .last_sec .discount .sm_p_discount p{
+    font-size: 18px;
+  }
+  .last_sec .discount h4{
+    font-size: 22px;
+  }
+  .last_sec .text_delv{
+    padding: 8px 15px;
+    margin-top: 10px;
+  }
+  .last_sec .sm-p{
+    font-size: 1vw;
+  }
+  .last_sec .footer .boxs .box p{
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .last_sec .div_form .flex_price .img_productt{
+    margin-top: 0;
+  }
+  .last_sec{
+    padding-top: 20px;
+  }
+  .how_work .text2{
+    line-height: 2;
+  }
+  .doctor .div_img{
+    width: 270px;
+  }
+}
+
+@media (min-width:1200px) {
+  .doctor .div_text{
+    margin-right: 6%;
+  }
+}
+@media (min-width:1350px) {
+  .doctor .div_text{
+    margin-right: 8%;
+  }
+  .last_sec .div_form form{
+    width: 500px;
+  }
+  .doctor .div_img{
+    width: 300px;
+  }
+}
+
+
+
+/* Thanks Page */
+body.thanks_page_page{
+  background: url(../img/thanksbg.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+.thanks_page{
+  text-align: center;
+  color: #fff;
+  padding-top: 30px;
+}
+
+.thanks_page h3{
+  font-size: 20px;
+  margin: 00px 0 8px;
+}
+.thanks_page p{
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+.thanks_page a{
+  display: block;
+  padding: 10px 30px;
+  font-size: 20px;
+  color: #fff;
+  background: linear-gradient(-15deg ,#855AA5 , #331C5B);
+  width: max-content;
+  border-radius: 10px;
+  margin: 0 auto 20px;
+}
+
+.thanks_page .text img{
+  width: 70px;
+}
+@media (min-width:1000px) {
+  .thanks_page p{
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+  .thanks_page h3{
+    font-size: 25px;
+    margin: 00px 0 8px;
+  }
+  .thanks_page .text img{
+    width: 100px;
+  }
+}
+
+@media (min-width:500px) {
+  body.thanks_page_page{
+    background: url(../img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+  }
 }
